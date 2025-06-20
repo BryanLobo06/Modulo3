@@ -1,4 +1,4 @@
-# Age Validation Program
+# Age Validation Program Module 3 week 1
 
 A simple and interactive web application that validates user input for name and age, providing personalized motivational messages based on the user's age.
 
@@ -42,8 +42,14 @@ A simple and interactive web application that validates user input for name and 
 
 ## Files
 
-- `age_program.html` - English version
+- `index.html`
+- `style.css`
+- `sistema_interactivo.js`
 - `README.md` - This documentation
+
+## Structure
+
+![alt text](image.png)
 
 ## Technical Details
 
@@ -53,9 +59,9 @@ A simple and interactive web application that validates user input for name and 
 - **JavaScript**: Form validation and dynamic content
 
 ### Key Functions
-- `validarYMostrarMensaje()`: Main validation and message display function
-- `mostrarError()`: Displays error messages
-- `mostrarExito()`: Displays success messages
+- `validateAndShowMessage()`: Main validation and message display function
+- `showError()`: Displays error messages
+- `showSuccess()`: Displays success messages
 
 ## UI Features
 
