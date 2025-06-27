@@ -1,4 +1,4 @@
-# Gestión de Datos con Objetos, Sets y Maps (Versión Alternativa)
+# Gestión de Datos con Objetos, Sets y Maps
 
 Este proyecto muestra una forma alternativa de gestionar información de productos utilizando **objetos**, **Sets** y **Maps** en JavaScript. Se ejemplifica cómo evitar duplicados y cómo recorrer e imprimir los datos usando diferentes bucles y métodos.
 
