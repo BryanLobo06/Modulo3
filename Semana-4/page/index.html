@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Interfaz Interactiva con Persistencia de Datos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Interactivo</h1>
+        
+        <!-- Formulario para capturar datos del usuario -->
+        <form id="userForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                <div class="error-message" id="nombreError">Por favor ingresa un nombre válido</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad" min="1" max="120" required>
+                <div class="error-message" id="edadError">Por favor ingresa una edad válida (1-120)</div>
+            </div>
+            
+            <div class="button-group">
+                <button type="button" id="guardarBtn" class="btn-primary">Guardar Datos</button>
+                <button type="button" id="limpiarBtn" class="btn-danger">Limpiar Datos</button>
+            </div>
+            
+            <div class="success-message" id="successMessage">¡Datos guardados exitosamente!</div>
+        </form>
+        
+        <!-- Sección para mostrar datos almacenados -->
+        <div class="output-section">
+            <h3>Datos Almacenados:</h3>
+            <div id="output">
+                <!-- Los datos se mostrarán aquí dinámicamente -->
+            </div>
+        </div>
+        
+        <!-- Contador de interacciones -->
+        <div class="counter-section">
+            <h3>Contador de Interacciones</h3>
+            <p>Has interactuado con la página <span class="counter-number" id="interactionCounter">0</span> veces en esta sesión</p>
+        </div>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html> 
